@@ -38,9 +38,9 @@ export default function AddressesPage() {
       setAddresses(res.data)
       setForm({ details: "", phone: "", city: "" })
       setShowModal(false)
-      toast.success("Address added!", { position: "top-center" })
+      toast.success("Address added❤️", { position: "top-center" })
     } else {
-      toast.error("Failed to add address", { position: "top-center" })
+      toast.error("Failed to add address🚫", { position: "top-center" })
     }
 
     setSubmitting(false)
