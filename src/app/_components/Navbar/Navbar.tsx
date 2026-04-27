@@ -272,9 +272,7 @@ export default function Navbar() {
                 </div>
                 <div className="leading-tight">
                   <div className="text-sm font-medium text-gray-800">Need Help?</div>
-                  <Link href="/support" className="text-xs text-green-600 hover:underline">
-                    Contact Support
-                  </Link>
+<span className="text-xs text-green-600">Contact Support</span>
                 </div>
               </div>
             </div>
